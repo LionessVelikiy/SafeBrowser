@@ -1,0 +1,15 @@
+﻿<Window x:Class="SOM.EM.EmForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SOM.EM"
+        mc:Ignorable="d"
+        Title="EmForm" Height="450" Width="1000">
+    <Grid Margin="0,0,0,0">
+        <Button Content="Загрузить" Margin="0,10,10,0" VerticalAlignment="Top" Height="35" Click="Button_Click" HorizontalAlignment="Right" Width="185"/>
+        <DataGrid x:Name="TablePoint" Margin="10,10,200,10" VirtualizingPanel.IsVirtualizing="False" SelectionChanged="TablePoint_SelectionChanged"  />
+        <Button Content="Кластеризировать Km" Margin="0,50,10,0" VerticalAlignment="Top" Height="35" RenderTransformOrigin="0.522,0.124" HorizontalAlignment="Right" Width="185" Click="Button_Click_3"/>
+
+    </Grid>
+</Window>
