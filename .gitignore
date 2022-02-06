@@ -3,3 +3,7 @@
 packages/
 .vs/
 Debug/
+
+*.cache
+*.Cache
+*.lref
